@@ -1,0 +1,31 @@
+.box-links{
+  max-width: 300px;
+  margin: 50px auto;
+  border: 2px solid #000;
+  text-align: center;
+  padding: 15px;
+  background-color: #edebeb;
+  border-radius: 5px;
+}
+/* стилизация Ссылок*/
+.icon-item {
+  font-size: 24px;
+  color: inherit;
+}
+.link-icon {
+  text-decoration: none;
+  transition: all 0.5s;
+  display: inline-block;
+}
+.link-icon:link {
+  color: rgb(3, 89, 15);
+}
+.link-icon:visited{
+  color: rgb(244, 122, 7);
+}
+.link-icon:hover {
+  color: red;
+}
+.link-icon:active {
+  color: rgb(126, 125, 125);
+}
