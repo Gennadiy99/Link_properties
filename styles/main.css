@@ -17,15 +17,15 @@
   transition: all 0.5s;
   display: inline-block;
 }
-.link-icon:link {
+.link-icon:link .icon-item{
   color: rgb(3, 89, 15);
 }
-.link-icon:visited{
+.link-icon:visited .icon-item{
   color: rgb(244, 122, 7);
 }
-.link-icon:hover {
+.link-icon:hover .icon-item{
   color: red;
 }
-.link-icon:active {
+.link-icon:active .icon-item{
   color: rgb(126, 125, 125);
 }
